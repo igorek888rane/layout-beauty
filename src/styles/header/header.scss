@@ -1,67 +1,61 @@
-.header_anchor{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  grid-gap: 30px;
-  background-color: #EFEFEF;
-  height: 50px;
-  a{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
-    text-decoration: none;
-    color: #333333;
-  }
-}
-.header_info{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: #ffff;
+
+header{
   border-bottom: 1px solid #EFEFEF ;
-  padding: 20px 0;
-  .header_logo{
+  .header_anchor{
     display: flex;
+    justify-content: center;
     align-items: center;
-    grid-gap: 20px;
-    span{
-      font-weight: 700;
-      font-size: 36px;
-      line-height: 42px;
-      letter-spacing: 0.1em;
-      color: #66C05D;
-    }
-  }
-  .header_contact{
-    display: flex;
-    align-items: center;
-    grid-gap: 40px;
-    .header_phone{
+    grid-gap: 30px;
+    background-color: #EFEFEF;
+    height: 50px;
+    a{
+      font-style: normal;
       font-weight: 400;
-      font-size: 16px;
-      line-height: 19px;
-      color: #000000;
+      font-size: 14px;
+      line-height: 16px;
+      text-decoration: none;
+      color: #333333;
     }
-    .header_back_call{
-      background-color: transparent;
-      border: 2px solid #66C05D;
-      border-radius: 40px;
-      padding: 12px 26px;
-      cursor: pointer;
+  }
+  .header_info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffff;
+    padding: 20px 0;
+    .header_logo{
+      display: flex;
+      align-items: center;
+      grid-gap: 20px;
+      span{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        letter-spacing: 0.1em;
+        color: #66C05D;
+      }
+    }
+    .header_contact{
+      display: flex;
+      align-items: center;
+      grid-gap: 40px;
+      .header_phone{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;
+      }
+      .header_back_call{
+        background-color: transparent;
+        border: 2px solid #66C05D;
+        border-radius: 40px;
+        padding: 12px 26px;
+        cursor: pointer;
+      }
+
     }
 
   }
 
 }
-.header_navigation{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  grid-gap: 40px;
-  padding: 30px 0;
- a{
-   text-decoration: none;
-   color: #000000;
- }
-}
+
