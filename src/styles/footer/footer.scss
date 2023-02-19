@@ -1,0 +1,46 @@
+.footer_content{
+  display: flex;
+  flex-direction: column;
+  .footer_contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 38px 0;
+    .footer_contact_social_network {
+      display: flex;
+      grid-gap: 20px;
+      .footer_contact_social_network_item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 45px;
+        height: 45px;
+        padding: 15px 12px;
+        border: 2px solid #66C05D;
+        border-radius: 50%;
+      }
+  }
+    .footer_contact_address{
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+      color: #000000;
+    }
+  }
+
+}
+.footer_privacy_policy{
+  padding: 25px 0 ;
+  background-color: #EFEFEF;
+  .footer_privacy_policy_content{
+    display: flex;
+    justify-content: space-between;
+    p{
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 14px;
+      color: #828282;
+    }
+  }
+
+}
