@@ -95,7 +95,8 @@
         }
         .special_offers_info_item_img{
           margin-left: 65px;
-          width: 140px;
+          max-width: 140px;
+          //width: 100%;
           height: 106.54px;
         }
         .special_offers_info_item_btn{
@@ -108,5 +109,12 @@
         }
       }
     }
+  }
+}
+
+@media (max-width:1109px) {
+  .special_offers_info{
+    flex-direction: column;
+    align-items: center;
   }
 }
