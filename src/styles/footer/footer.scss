@@ -6,10 +6,10 @@
     align-items: center;
     justify-content: space-between;
     padding: 38px 0;
-    .footer_contact_social_network {
+    .footer__social_network {
       display: flex;
       grid-gap: 20px;
-      .footer_contact_social_network_item{
+      .footer__item{
         display: flex;
         justify-content: center;
         align-items: center;
@@ -20,7 +20,7 @@
         border-radius: 50%;
       }
   }
-    .footer_contact_address{
+    .footer__address{
       font-weight: 400;
       font-size: 14px;
       line-height: 16px;
