@@ -11,3 +11,33 @@
     color: #000000;
   }
 }
+
+
+
+@media (max-width:767px) {
+  .main_navigation{
+      grid-gap: 25px;
+      a{
+        font-size: 14px;
+      }
+
+  }
+}
+@media (max-width:576px) {
+  .main_navigation{
+    grid-gap: 10px;
+    a{
+      font-size: 12px;
+    }
+
+  }
+}
+@media (max-width:413px) {
+  .main_navigation{
+    grid-gap: 8px;
+    a{
+      font-size: 10px;
+    }
+
+  }
+}

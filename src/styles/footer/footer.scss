@@ -44,3 +44,22 @@
   }
 
 }
+@media (max-width:992px) {
+.footer_contact{
+  flex-direction: column;
+  grid-gap: 20px;
+}
+  .footer_privacy_policy{
+    .footer_privacy_policy_content{
+      flex-direction: column;
+      align-items: center;
+      grid-gap: 10px;
+      p{
+        text-align: center;
+      }
+    }
+  }
+}
+@media (max-width:576px) {
+
+}

@@ -1,14 +1,16 @@
 
-header{
-  border-bottom: 1px solid #EFEFEF ;
-  .header_anchor{
+header {
+  border-bottom: 1px solid #EFEFEF;
+
+  .header_anchor {
     display: flex;
     justify-content: center;
     align-items: center;
     grid-gap: 30px;
     background-color: #EFEFEF;
     height: 50px;
-    a{
+
+    a {
       font-style: normal;
       font-weight: 400;
       font-size: 14px;
@@ -16,17 +18,20 @@ header{
       color: #333333;
     }
   }
-  .header_info{
+
+  .header_info {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #ffff;
     padding: 20px 0;
-    .header_logo{
+
+    .header_logo {
       display: flex;
       align-items: center;
       grid-gap: 20px;
-      span{
+
+      span {
         font-weight: 700;
         font-size: 36px;
         line-height: 42px;
@@ -39,6 +44,40 @@ header{
 
 }
 
-//@media max-width: {
-//
-//}
+@media (max-width: 767px) {
+  header {
+    .header_anchor {
+      grid-gap: 20px;
+
+      a {
+        font-size: 12px;
+      }
+    }
+
+    .header_info {
+      .header_logo {
+        grid-gap: 10px;
+
+        span {
+          font-size: 30px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  header {
+    .header_info {
+      flex-direction: column;
+      grid-gap: 10px;
+      .header_logo {
+        grid-gap: 10px;
+
+        span {
+          font-size: 30px;
+        }
+      }
+    }
+  }
+}
